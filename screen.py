@@ -32,7 +32,7 @@ def white_backround():
     while running:
         screen.blit(IMAGE_SMALLi, ((46 * 20),(22 * 20)))
         pygame.display.flip()
-
+white_backround()
 
 def black_backrount():
     BLACK = (0, 0, 0)
