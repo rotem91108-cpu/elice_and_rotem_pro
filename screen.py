@@ -4,35 +4,35 @@ import pygame
 from pygame.locals import*
 # background_colour = (9, 121, 105)
 import pygame
-def white_backround():
-    # img = pygame.image.load(r'C:\Users\jbt\Desktop\elice_and_rotem_pro\bin\bin\grass.png')
-    img=pygame.image.load(r"bin\bin\grass.png")
-    IMAGE_SMALL = pygame.transform.scale(img, (60, 40))
-    img2 = pygame.image.load(r'bin\bin\flag.png')
-    IMAGE_SMALLi = pygame.transform.scale(img2, (80, 60))
-    white = ((9, 121, 105))
-    BOARD_ROWS = 25
-    BOARD_COLS = 50
-    CELL_SIZE = 20
-    WINDOW_WIDTH = BOARD_COLS * CELL_SIZE
-    WINDOW_HEIGHT = BOARD_ROWS * CELL_SIZE
-    screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
-    running = 1
-
-
-    while running:
-        screen.fill((white))
-        for i in range(21):
-            wigth=random.randint(0,47)*20
-            hight=random.randint(0,25)*20
-            screen.blit(IMAGE_SMALL,(wigth,hight))
-            running=0
-
-    running = 1
-    while running:
-        screen.blit(IMAGE_SMALLi, ((46 * 20),(22 * 20)))
-        pygame.display.flip()
-white_backround()
+# def white_backround():
+#     # img = pygame.image.load(r'C:\Users\jbt\Desktop\elice_and_rotem_pro\bin\bin\grass.png')
+#     img=pygame.image.load(r"bin\bin\grass.png")
+#     IMAGE_SMALL = pygame.transform.scale(img, (60, 40))
+#     img2 = pygame.image.load(r'bin\bin\flag.png')
+#     IMAGE_SMALLi = pygame.transform.scale(img2, (80, 60))
+#     white = ((9, 121, 105))
+#     BOARD_ROWS = 25
+#     BOARD_COLS = 50
+#     CELL_SIZE = 20
+#     WINDOW_WIDTH = BOARD_COLS * CELL_SIZE
+#     WINDOW_HEIGHT = BOARD_ROWS * CELL_SIZE
+#     screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+#     running = 1
+#
+#
+#     while running:
+#         screen.fill((white))
+#         for i in range(21):
+#             wigth=random.randint(0,47)*20
+#             hight=random.randint(0,25)*20
+#             screen.blit(IMAGE_SMALL,(wigth,hight))
+#             running=0
+#
+#     running = 1
+#     while running:
+#         screen.blit(IMAGE_SMALLi, ((46 * 20),(22 * 20)))
+#         pygame.display.flip()
+# white_backround()
 
 def black_backrount():
     BLACK = (0, 0, 0)
@@ -69,45 +69,45 @@ def black_backrount():
 
         pygame.display.update()
 
-#black_backrount()
+black_backrount()
 import random
 
 
 import pygame
 from pygame.locals import*
 # background_colour = (9, 121, 105)
-import pygame
-def white_backround():
-   # img = pygame.image.load(r'C:\Users\jbt\Desktop\elice_and_rotem_pro\bin\bin\grass.png')
-   img=pygame.image.load(r"bin\bin\grass.png")
-   IMAGE_SMALL = pygame.transform.scale(img, (60, 40))
-   img2 = pygame.image.load(r'bin\bin\flag.png')
-   IMAGE_SMALLi = pygame.transform.scale(img2, (80, 60))
-   white = ((9, 121, 105))
-   BOARD_ROWS = 25
-   BOARD_COLS = 50
-   CELL_SIZE = 20
-   WINDOW_WIDTH = BOARD_COLS * CELL_SIZE
-   WINDOW_HEIGHT = BOARD_ROWS * CELL_SIZE
-   screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
-   running = 1
-
-
-
-
-   while running:
-       screen.fill((white))
-       for i in range(21):
-           wigth=random.randint(0,47)*20
-           hight=random.randint(0,25)*20
-           screen.blit(IMAGE_SMALL,(wigth,hight))
-           running=0
-
-
-   running = 1
-   while running:
-       screen.blit(IMAGE_SMALLi, ((46 * 20),(22 * 20)))
-       pygame.display.flip()
-
-
-
+# import pygame
+# def white_backround():
+#    # img = pygame.image.load(r'C:\Users\jbt\Desktop\elice_and_rotem_pro\bin\bin\grass.png')
+#    img=pygame.image.load(r"bin\bin\grass.png")
+#    IMAGE_SMALL = pygame.transform.scale(img, (60, 40))
+#    img2 = pygame.image.load(r'bin\bin\flag.png')
+#    IMAGE_SMALLi = pygame.transform.scale(img2, (80, 60))
+#    white = ((9, 121, 105))
+#    BOARD_ROWS = 25
+#    BOARD_COLS = 50
+#    CELL_SIZE = 20
+#    WINDOW_WIDTH = BOARD_COLS * CELL_SIZE
+#    WINDOW_HEIGHT = BOARD_ROWS * CELL_SIZE
+#    screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+#    running = 1
+#
+#
+#
+#
+#    while running:
+#        screen.fill((white))
+#        for i in range(21):
+#            wigth=random.randint(0,47)*20
+#            hight=random.randint(0,25)*20
+#            screen.blit(IMAGE_SMALL,(wigth,hight))
+#            running=0
+#
+#
+#    running = 1
+#    while running:
+#        screen.blit(IMAGE_SMALLi, ((46 * 20),(22 * 20)))
+#        pygame.display.flip()
+#
+#
+#
